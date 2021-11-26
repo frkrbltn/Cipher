@@ -51,6 +51,7 @@ public class Cipher {
                 }
             }
         }
+        return false;
     }
 
     /**
@@ -69,7 +70,9 @@ public class Cipher {
      * out is null and cipher is invalid
      */
     public static void processFile(boolean encrypt, Scanner in, PrintWriter out, char[] cipher) {
+        if(encrypt == true) {
 
+        }
     }
 
     /**
